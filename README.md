@@ -5,3 +5,8 @@ This is because that [the official nginx docker image](https://github.com/nginxi
 
 ### To more details about nginx configuration, please refer to followings.<br>
 http://www.allgoodbits.org/articles/view/29
+
+### How to build
+```
+$ docker build -t nexhub/nginx .
+```
