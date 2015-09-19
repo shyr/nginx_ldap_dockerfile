@@ -19,7 +19,7 @@ $ docker build -t [YOUR_IMAGE_NAME] .
 ## Nginx Version
 A nginx version is specified in [Dockerfile](https://github.com/shyr/nginx_ldap_dockerfile/blob/master/Dockerfile). Fix ENV NGINX_VERSION as you want.
 
-## You want to add another modules?
+## Add another modules?
 To add another module you need to modify Dockerfile.
 
 1. Get module source and unzip.
