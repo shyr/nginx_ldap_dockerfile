@@ -51,7 +51,7 @@ RUN make && make install
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
-ADD nginx.conf /etc/nginx/nginx.conf
+ADD default.conf /etc/nginx/nginx.conf
 
 VOLUME ["/var/cache/nginx"]
 
