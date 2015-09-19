@@ -30,7 +30,3 @@ To add another module you need to modify Dockerfile.
 To get more details about nginx configuration, please refer to followings.<br>
 http://www.allgoodbits.org/articles/view/29
 
-### How to build
-```
-$ docker build -t nexhub/nginx .
-```
