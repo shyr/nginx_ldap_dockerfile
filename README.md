@@ -1,4 +1,4 @@
-# nginx_ldap_dockerfile
+# Nginx_ldap_dockerfile
 Dockerizing nginx with LDAP module based on `centos:7`.
 Because [the official nginx docker image](https://github.com/nginxinc/docker-nginx) does not support LDAP module by itself, you have to get nginx source and compile with LDAP module. This image include [nginx-auth-ldap module](https://github.com/kvspb/nginx-auth-ldap), so you don't need to compile. 
 
